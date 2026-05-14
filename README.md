@@ -1,4 +1,3 @@
-
 # 🔗 Simple Blockchain Project
 
 This is a basic blockchain implementation built using Python and Flask.
@@ -34,7 +33,6 @@ This is a basic blockchain implementation built using Python and Flask.
 
 ## 📄 License
 This project is open-source under the MIT License.
-
 from flask import Flask, jsonify, request
 from blockchain import Blockchain
 
@@ -90,3 +88,18 @@ def is_valid():
 
 if name == 'main':
     app.run(debug=True)
+
+# Simple Blockchain Project
+
+This is a basic blockchain implementation using Python and Flask.
+
+## Features
+- Mine blocks
+- Add transactions
+- Validate chain
+
+## Run
+
+pip install -r requirements.txt
+python main.py
+
